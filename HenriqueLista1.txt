@@ -1,0 +1,220 @@
+﻿       Lista 1 
+ Exercício1    
+           
+
+            int a;
+            int b;
+            int r;
+
+            Console.WriteLine("Insira o valor da base");
+            b = int.Parse(Console.ReadLine());
+            Console.WriteLine("Insira o valor da altura");
+            a = int.Parse(Console.ReadLine());
+
+            r = b * a;
+            Console.WriteLine("A área do seu retângulo é:" + r);
+
+            Console.ReadKey(); 
+ 
+   Exercício 2
+
+
+            int aresta;
+            Console.WriteLine("Digite o valor da Aresta");
+            aresta = int.Parse(Console.ReadLine());
+
+            double area = Math.Pow(aresta, 2);
+
+            Console.WriteLine("O valor da sua área é:" + area);
+
+            Console.ReadKey();  
+
+
+Exercício 3 
+           double diagonal, lado, area;
+
+            Console.WriteLine("Digite o valor da diagonal do quadrado:");
+            diagonal = double.Parse(Console.ReadLine());
+            
+            lado = diagonal/Math.Sqrt(2);
+            
+            area = Math.Pow(lado,2);
+
+            Console.WriteLine("O valor da sua área é: " + area);
+
+            Console.ReadKey();  
+Exercício 4
+
+
+            int baseT, alturaT;
+            double area;
+
+            Console.WriteLine("Digite o valor da base do triângulo: ");
+            baseT = int.Parse(Console.ReadLine());
+            Console.WriteLine("Digite o valor da altura do triãngulo:");
+            alturaT = int.Parse(Console.ReadLine());
+
+            area = (baseT * alturaT) / 2;
+
+            Console.WriteLine("O valor da sua área é: " + area);
+
+            Console.ReadKey();  
+
+Exercício 5
+
+
+            double num1, num2, num3, num4, resultado;
+
+            Console.WriteLine("Digite o primeiro número: ");
+            num1 = double.Parse(Console.ReadLine());
+            Console.WriteLine("Digite o segundo número: ");
+            num2 = double.Parse(Console.ReadLine());
+            Console.WriteLine("Digite o terceiro número: ");
+            num3 = double.Parse(Console.ReadLine());
+            Console.WriteLine("Digite o quarto número: ");
+            num4= double.Parse(Console.ReadLine());
+
+            resultado = (num1 + num2 + num3 + num4) / 4;
+
+            Console.WriteLine("O valor da média aritmética é: " + resultado);
+            
+            Console.ReadKey(); double num1, num2, num3, num4, resultado;
+
+            Console.WriteLine("Digite o primeiro número: ");
+            num1 = double.Parse(Console.ReadLine());
+            Console.WriteLine("Digite o segundo número: ");
+            num2 = double.Parse(Console.ReadLine());
+            Console.WriteLine("Digite o terceiro número: ");
+            num3 = double.Parse(Console.ReadLine());
+            Console.WriteLine("Digite o quarto número: ");
+            num4= double.Parse(Console.ReadLine());
+
+            resultado = (num1 + num2 + num3 + num4) / 4;
+
+            Console.WriteLine("O valor da média aritmética é: " + resultado);
+            
+            Console.ReadKey(); 
+
+
+Exercício 6
+           double num1, num2, resultado;
+
+
+            Console.WriteLine("Digite o primeiro número:");
+            num1 = double.Parse(Console.ReadLine());
+            Console.WriteLine("Digite o segundo número:");
+            num2 = double.Parse(Console.ReadLine());
+
+            resultado = Math.Sqrt(num1 * num2);
+
+            Console.WriteLine("O valor da média geométrica do valores digitados é: " + Math.Round(resultado, 2));
+
+            Console.ReadKey();
+   Exercício 7
+           double MilhasMarit, resultado;
+
+            Console.WriteLine("Digite a quantidade de milhas marítimas para converter para quilômetros:");
+            MilhasMarit = double.Parse(Console.ReadLine());
+
+            resultado = MilhasMarit * 1852;
+
+            Console.WriteLine("A quantidade de milhas marítimas em quilomêtros é:" + resultado);
+
+            Console.ReadKey();
+
+
+Exercício 8
+
+ double valorCelsius, valorFahrenheit;
+
+  Console.WriteLine("Digite a temperatura em celsius: ");
+  valorCelsius = double.Parse(Console.ReadLine());
+
+  valorFahrenheit = (valorCelsius * 1.8) + 32;
+
+  Console.WriteLine("A temperatura de Celsius em Fahrenheit é:" + valorFahrenheit);
+   Console.ReadKey();
+
+Exercício 9
+
+double valordiametro, valorraio, valorarea;
+
+Console.WriteLine("Digite o diâmetro de um círculo: ");
+valordiametro = double.Parse(Console.ReadLine());
+           
+valorraio = valordiametro / 2;
+valorarea = Math.PI * Math.Pow(valorraio, 2);
+Console.WriteLine("O valor da área é:" + Math.Round(valorarea, 2));
+
+Console.ReadKey();
+
+Exercício 10
+
+            double cotaçãoDol, valorDol, valorReal;
+
+
+            Console.WriteLine("Digite o valr da cotação do Dólar:");
+
+            cotaçãoDol = double.Parse(Console.ReadLine());
+            Console.WriteLine("Digite uma quantidade de Dólares:");
+            valorDol = double.Parse(Console.ReadLine());
+
+            valorReal = valorDol * cotaçãoDol;
+
+            Console.WriteLine("O valor da quantidade em Dólar em Real é:" + valorReal);
+            Console.ReadKey();
+
+
+Exercício 11
+            double valorX, valorY, resultado;
+
+            Console.WriteLine("Digite o valor da base:");
+            valorX = double.Parse(Console.ReadLine());
+            Console.WriteLine("Digite o valor do Exercíciopoente:");
+            valorY = double.Parse(Console.ReadLine());
+
+            resultado = Math.Pow(valorX, valorY);
+
+            Console.WriteLine("O valor da base elevada ao Exercíciopoente é:" + resultado);
+            Console.ReadKey();
+
+Exercício 12
+double valorProdut01, valorProdut02, valorProdut03, valorProdut04, valorProdut05, somatoriaProut, pagamentoProdut, trocoProdut;
+
+ Console.WriteLine("Qual o valor do primeiro produto:");
+ valorProdut01 = double.Parse(Console.ReadLine());
+ Console.WriteLine("Qual o valor do segundo produto:");
+ valorProdut02 = double.Parse(Console.ReadLine());
+ Console.WriteLine("Qual o valor do terceiro produto:");
+ valorProdut03 = double.Parse(Console.ReadLine());
+ Console.WriteLine("Qual o valor do quarto produto:");
+ valorProdut04 = double.Parse(Console.ReadLine());
+ Console.WriteLine("Qual o valor do quinto produto");
+ valorProdut05 = double.Parse(Console.ReadLine());
+
+ somatoriaProut = valorProdut01 + valorProdut02 + valorProdut03 + valorProdut04 + valorProdut05;
+
+ Console.WriteLine("A soma dos cinco produto é:" + somatoriaProut);
+
+ Console.WriteLine("Qual o valor do pagamento:");
+ pagamentoProdut = double.Parse(Console.ReadLine());
+
+ trocoProdut = somatoriaProut - pagamentoProdut;
+
+ if (pagamentoProdut > somatoriaProut) ;
+ {
+     Console.WriteLine("O cobrador terá que devolver:" + Math.Abs(trocoProdut));
+
+ }
+ else
+ if (pagamentoProdut < somatoriaProut) ;
+ {
+     Console.WriteLine("Para completar o pagamento faltará:" + trocoProdut);
+ }
+  else
+
+  {
+     Console.WriteLine("O PRODUTO FOI PAGO CORRETAMENTE:");
+  }
+
+ Console.ReadKey();
